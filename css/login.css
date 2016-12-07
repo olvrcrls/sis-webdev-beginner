@@ -1,0 +1,99 @@
+body{
+  width: 100%;
+}
+div.log-form{
+  position: center;
+  top: 20%;
+  left: 25%;
+  right: 0;
+  width: 50%;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+
+}
+
+
+
+div.log-form input:invalid{
+  border-color: #cc2000;
+}
+
+div.log-form input:valid{
+  border-color: #005f5f;
+}
+
+
+div.log-form fieldset{
+  border-radius: 20px;
+
+  width: 100%;
+}
+#login{
+  border-color: White;
+  background-color:maroon;
+}
+
+#login:focus{
+  background-color: #005f5f;
+  color: #fff;
+}
+#clear{
+  border-color: white;
+  background-color:maroon;
+  }
+#clear:focus{
+  background-color: #005f5f;
+  color: #fff;
+}
+
+#forgot-pw{
+  text-decoration: underline;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 0.8em;
+}
+
+#username{
+  border-radius: 10px;
+  width: 40%;
+  margin-bottom: 2%;
+  text-indent: 5%;
+  border-style: hidden;
+  padding: 0.8%;
+
+}
+
+#username:valid{
+  border-radius: 10px;
+  width: 40%;
+  margin-bottom: 2%;
+  text-indent: 5%;
+  border-style: none;
+  border-color: #005f5f;
+}
+
+
+#password{
+  border-radius: 10px;
+  width: 40%;
+  text-indent: 5%;
+  padding: 0.8%;
+  border-style: hidden;
+}
+
+#password:valid{
+  border-radius: 10px;
+  width: 40%;
+  text-indent: 5%;
+  border-style: none;
+  border-color: #005f5f;
+}
+
+
+#forgot-pw:hover{
+  color: orange;
+}
+#forgot-pw:focus{
+  color: orange;
+}

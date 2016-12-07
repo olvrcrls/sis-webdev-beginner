@@ -1,0 +1,25 @@
+html{
+  display: block;
+}
+
+div.navigation{
+  display:inline-block;
+}
+
+body{
+  font-size: 100%;
+}
+
+div.setting-forms ul{
+  list-style: none;
+}
+
+div.setting-forms ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+div.setting-forms ul li a:hover{
+  text-decoration: underline;
+
+}
